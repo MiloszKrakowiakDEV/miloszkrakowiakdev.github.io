@@ -7,6 +7,15 @@ icon.type="x-icon"
 icon.rel="shortcut icon"
 icon.href=localStorage.getItem("icon")
 window.RufflePlayer = window.RufflePlayer || {};
+window.RufflePlayer.config = {
+"splashScreen": false,
+"backgroundColor":"#190ae9",
+"letterbox":"on",
+"contextMenu":"off",
+"forcealign":true,
+"frameRate":30,
+"allowFullscreen":true
+}
     window.addEventListener("load", (event) => {
         const ruffle = window.RufflePlayer.newest();
         const player = ruffle.createPlayer();
@@ -17,4 +26,5 @@ window.RufflePlayer = window.RufflePlayer || {};
         player.style.height = "800px";
         container.style.marginLeft="120%"
         container.style.marginLeft="10%"
+        
     });

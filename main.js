@@ -19,6 +19,7 @@ let games = [
     new Game("Duck life 4", "gry/ducklife4/ducklife4.swf", "gry/ducklife4/ducklife4.jpg"),
     new Game("Fireboy and Watergirl in the Forest Temple", "gry/fbwgft/fbwgft.swf", "gry/fbwgft/fbwgft.jpg"),
     new Game("Bob snail 1", "gry/snail1/snail1.swf", "gry/snail1/snail1.png"),
+    new Game("Ragdoll volleyball", "gry/ragdoll/ragdoll.swf", "gry/ragdoll/ragdoll.jpg"),
     new Game("Head football", "gry/football/football.swf", "gry/football/football.jpg"),
     new Game("Frogger", "gry/frogger/frogger.swf", "gry/frogger/frogger.jpg"),
     new Game("Frogger", "gry/jacksmith/jacksmith.swf", "gry/jacksmith/jacksmith.jpg"),
