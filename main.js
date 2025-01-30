@@ -69,7 +69,6 @@ let interval2 = window.setInterval(function(){
             icon.classList.add("game")
             let description = document.createElement("span");
             game.appendChild(icon)
-            console.log(index)
             if(index%5==0) {
                 game.style.clear="both"
             }
