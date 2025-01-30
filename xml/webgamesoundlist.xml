@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<sounds>
+    <sound name="dice_roll" Soundfile="sounds/dice_roll_1.mp3" LoadOnStartup="true" UnloadOnPlayDone="false" mp3Bitrate="128" loops="0" startTime="0" groups="c,d,e" size="11300"/>
+    <sound name="dice_roll" Soundfile="sounds/dice_roll_2.mp3" LoadOnStartup="true" UnloadOnPlayDone="false" mp3Bitrate="128" loops="0" startTime="0" groups="c,d,e" size="12239"/>
+    <sound name="door_sneak_through" Soundfile="sounds/door_sneak_through.mp3" LoadOnStartup="true" UnloadOnPlayDone="false" mp3Bitrate="128" loops="0" startTime="0" groups="c,d,e" size="26637"/>
+    <sound name="door_squeak" Soundfile="sounds/door_squeak.mp3" size="42600"/>
+    <sound name="gnome_evil_laugh" Soundfile="sounds/gnome_evil_laugh_1.mp3" LoadOnStartup="true" UnloadOnPlayDone="false" mp3Bitrate="128" loops="0" startTime="0" size="24446"/>
+    <sound name="gnome_evil_laugh" Soundfile="sounds/gnome_evil_laugh_2.mp3" LoadOnStartup="true" UnloadOnPlayDone="false" mp3Bitrate="128" loops="0" startTime="0" size="24446"/>
+    <sound name="gnome_falls" Soundfile="sounds/gnome_falls.mp3" LoadOnStartup="true" UnloadOnPlayDone="false" mp3Bitrate="128" loops="0" startTime="0" size="22255"/>
+    <sound name="hero_battle_prepare_shout" Soundfile="sounds/hero_battle_prepare_shout.mp3" LoadOnStartup="true" UnloadOnPlayDone="false" mp3Bitrate="128" loops="0" startTime="0" size="30393"/>
+    <sound name="hero_choose_axe" Soundfile="sounds/hero_choose_axe.mp3" size="8170"/>
+    <sound name="hero_choose_bow" Soundfile="sounds/hero_choose_bow.mp3" size="12552"/>
+    <sound name="hero_choose_dagger" Soundfile="sounds/hero_choose_dagger.mp3" size="12552"/>
+    <sound name="hero_choose_staff" Soundfile="sounds/hero_choose_staff.mp3" size="14743"/>
+    <sound name="hero_choose_sword" Soundfile="sounds/hero_choose_sword.mp3" size="14743"/>
+    <sound name="hero_choose_wand" Soundfile="sounds/hero_choose_wand.mp3" size="12552"/>
+    <sound name="hero_fight_axe" Soundfile="sounds/hero_fight_axe.mp3" size="21003"/>
+    <sound name="hero_fight_bow" Soundfile="sounds/hero_fight_bow.mp3" size="13804"/>
+    <sound name="hero_fight_dagger" Soundfile="sounds/hero_fight_dagger.mp3" size="21003"/>
+    <sound name="hero_fight_staff" Soundfile="sounds/hero_fight_staff.mp3" size="10048"/>
+    <sound name="hero_fight_sword" Soundfile="sounds/hero_fight_sword.mp3" size="17247"/>
+    <sound name="hero_fight_wand" Soundfile="sounds/hero_fight_wand.mp3" size="19751"/>
+    <sound name="hero_gain_lifepoint" Soundfile="sounds/hero_gain_lifepoint.mp3" size="30393"/>
+    <sound name="hero_jump_on_other_player" Soundfile="sounds/hero_jump_on_other_player.mp3" volume=".5" size="12552"/>
+    <sound name="hero_lose_health" Soundfile="sounds/hero_lose_health.mp3" size="12552"/>
+    <sound name="hero_move" Soundfile="sounds/hero_move_1.mp3" volume=".2" size="6605"/>
+    <sound name="hero_move" Soundfile="sounds/hero_move_2.mp3" volume=".2" size="6292"/>
+    <sound name="hero_move" Soundfile="sounds/hero_move_3.mp3" volume=".2" size="6292"/>
+    <sound name="hero_move" Soundfile="sounds/hero_move_4.mp3" volume=".2" size="6605"/>
+    <sound name="hero_potion_pickup" Soundfile="sounds/hero_potion_pickup.mp3" size="24446"/>
+    <sound name="hero_unconscious" Soundfile="sounds/hero_unconscious.mp3" size="35401"/>
+    <sound name="hero_use_potion" Soundfile="sounds/hero_use_potion.mp3" size="19751"/>
+    <sound name="hero_win_fight" Soundfile="sounds/hero_win_fight.mp3" size="30393"/>
+    <sound name="misc_button_press_discrete" Soundfile="sounds/misc_button_press_discrete.mp3" size="10347"/>
+    <sound name="misc_button_press" Soundfile="sounds/misc_button_press.mp3" size="9109"/>
+    <sound name="misc_heroselect_press" Soundfile="sounds/misc_heroselect_press.mp3" size="24140"/>
+    <sound name="misc_click_field" Soundfile="sounds/misc_click_field.mp3" size="8170"/>
+    <sound name="misc_notification_generic" Soundfile="sounds/misc_notification_generic.mp3" size="36340"/>
+    <sound name="misc_notification_obstacle" Soundfile="sounds/misc_notification_obstacle.mp3" size="18499"/>
+    <sound name="misc_pickup_gold" Soundfile="sounds/misc_pickup_gold.mp3" size="26324"/>
+    <sound name="misc_stuff_into_inventory" Soundfile="sounds/misc_stuff_into_inventory.mp3" size="30393"/>
+    <sound name="misc_torch" Soundfile="sounds/misc_torch.mp3" size="48547"/>
+    <sound name="misc_treasure_chest_damage" Soundfile="sounds/misc_treasure_chest_damage.mp3" size="15682"/>
+    <sound name="misc_treasure_chest_open" Soundfile="sounds/misc_treasure_chest_open.mp3" size="16934"/>
+    <sound name="shop_available" Soundfile="sounds/shop_available.mp3" size="28515"/>
+    <sound name="startfight" Soundfile="sounds/startfight.mp3" volume=".3" size="47963"/>
+    <sound name="misc_treasure_chest_pickup" Soundfile="sounds/misc_treasure_chest_pickup.mp3" size="17034"/>
+    <sound name="misc_pickup_key" Soundfile="sounds/misc_pickup_key.mp3" size="17034"/>
+    <sound name="ambient_music" Soundfile="sounds/ambient_music.mp3" LoadOnStartup="true" VolumeGroup="ambient" size="483798"/>
+</sounds>

@@ -1,0 +1,305 @@
+
+<language>
+
+<!-- Splash screen texts  -->
+	<txt name="preloader.tfLoading">
+		Loading
+	</txt>
+	<txt name="mcContinue.tfBtn">
+		Start
+	</txt>
+	
+<!-- Select heroes dialog -->
+	<txt name="GuiSelectPlayer.tfButContinue">
+		Continue
+	</txt>
+	<txt name="GuiSelectPlayer.tfSelectHero">
+		Select Your Hero
+	</txt>
+	<txt name="mcHero.tfHerotitle1">
+		The Barbarian
+	</txt>
+	<txt name="mcHero.tfHerotitle2">
+		The Wizard
+	</txt>
+	<txt name="mcHero.tfHerotitle3">
+		The Druid
+	</txt>
+	<txt name="mcHero.tfHerotitle4">
+		The Knight
+	</txt>
+	<txt name="mcToggler.tfOpponentPlayer">
+		Player
+	</txt>
+	<txt name="mcToggler.tfOpponentCom">
+		Com
+	</txt>
+	<txt name="mcToggler.tfOpponentNone">
+		None
+	</txt>
+
+<!-- Select difficulty dialog -->
+	<txt name="GuiSelectDifficulty.tfSelectDifficulty">
+		Select Difficulty
+	</txt>
+	<txt name="mcSelector.tfDiffEasy">
+		Easy
+	</txt>
+	<txt name="mcSelector.tfDiffMedium">
+		Medium
+	</txt>
+	<txt name="mcSelector.tfDiffExpert">
+		Expert
+	</txt>
+	<txt name="GuiSelectDifficulty.tfButContinue">
+		Start
+	</txt>
+
+<!-- Shop dialog -->
+	<txt name="GuiShop.tfWeaponsShop">
+		Weapons Shop
+	</txt>
+	<txt name="GuiShop.tfPrice">
+		Price:
+	</txt>
+	<txt name="GuiShop.tfButDone">
+		Done
+	</txt>
+	<txt name="mcButton.tfBuy">
+		Buy
+	</txt>
+	<txt name="mcButton.tfSell">
+		Sell
+	</txt>
+	<txt name="mcWeaponMoveExplanation.tfWeaponmove">
+		Weapon Move 
+	</txt>
+	
+<!-- Sell dialog -->	
+	<txt name="PopupSellWeapon.tfButSellWeapon">
+		Sell Weapon
+	</txt>
+	<txt name="PopupSellWeapon.tfButSellWeaponCancel">
+		Cancel
+	</txt>
+	<txt name="PopupSellWeapon.tfSellWeapon">
+		Sell Weapon?
+	</txt>	
+	
+<!-- Roll dice dialog -->	
+	<txt name="GuiRollDice.tfRolldice">
+		Roll Dice
+	</txt>
+	<txt name="GuiRollDice.tesultfightText1">
+		Sword & Skull
+	</txt>
+	<txt name="GuiRollDice.tesultfightText2">
+		Skull
+	</txt>
+	<txt name="GuiRollDice.tesultfightText3">
+		Sword
+	</txt>
+	<txt name="GuiRollDice.tesultfightText4">
+		Heroica Shield
+	</txt>
+	
+	
+<!-- Quit button text -->	
+	<txt name="mcTextHolder.tfQuitgame">
+		Quit Game
+	</txt>
+	
+<!-- Mute button text -->	
+	<txt name="mcTextHolder.tfMuteSound">
+		Mute Music
+	</txt>
+	
+<!-- Status bar labels and button texts -->	
+	<txt name="GuiStatusbar.tfLife">
+		Life
+	</txt>
+	<txt name="GuiStatusbar.tfPotions">
+		Potions
+	</txt>
+	<txt name="GuiStatusbar.tfGold">
+		Gold
+	</txt>
+	<txt name="GuiStatusbar.tfPrisoners">
+		Prisoners
+	</txt>
+	<txt name="GuiStatusbar.tfKey">
+		Key
+	</txt>
+
+
+	<txt name="mcShopButton.tfWeaponsShop">
+		Weapons Shop
+	</txt>
+	<txt name="mcShopButton.tfWeapons">
+		Weapons
+	</txt>
+	<txt name="mcInventoryWeaponExplanation.tfWeaponmove">
+		Weapon Move
+	</txt>
+	<txt name="mcNativeSkillExplanation.tfHeroskill">
+		Hero Skill
+	</txt>
+	<txt name="mcHero.tfUseSkill">
+		Use Skill
+	</txt>
+	<txt name="mcEndTurn.tfEndTurn">
+		End Turn
+	</txt>
+	
+	<!-- popup fight -->	
+	<txt name="PopupFight.tfFight">
+		Fight!
+	</txt>
+	<txt name="popupfightoption.potion strength">
+		Strength
+	</txt>
+	<txt name="popupfightoption.weapon axe">
+		Axe
+	</txt>
+	<txt name="popupfightoption.potion luck">
+		Luck
+	</txt>
+	<txt name="popupfightoption.weapon dagger">
+		Dagger
+	</txt>
+	
+	
+	<txt name="PopupChest.tfTreasureChest">
+		Treasure Chest
+	</txt>
+	
+	<!-- when various objects are found -->	
+	<txt name="PopupPickupPickedUp.tfFoundKey">
+		Key Found!
+	</txt>	
+	<txt name="PopupPickupPickedUp.tfFoundGold">
+		A Piece of Gold Found!
+	</txt>
+		<txt name="PopupPickupPickedUp.tfFoundTreasurechest">
+		Treasure Chest Found!
+	</txt>
+	<txt name="PopupPickupPickedUp.tfFoundPotionLife">
+		Life Potion
+Found!
+	</txt>
+	<txt name="PopupPickupPickedUp.tfFoundPotionLuck">
+		Luck Potion
+Found!
+	</txt>
+	<txt name="PopupPickupPickedUp.tfFoundPotionStrength">
+		Strength Potion Found!
+	</txt>
+
+	<txt name="PopupPickupPickedUp.tfFoundPotionSpeed">
+		Speed Potion Found!
+	</txt>
+	<txt name="PopupPickupPickedUp.tfFoundHelmet">
+		Helmet Found!
+	</txt>
+	<txt name="PopupPotionSpeed.tfDrinkingSpeedpotion">
+		Drinking Speed Potion!
+	</txt>
+	<txt name="popupPotionStrength.tfDrinkingPotion">
+		Drinking Potion!
+	</txt>
+	
+	<!-- popup sneak -->	
+	<txt name="PopupDoor.tfDoorLocked">
+		The Door
+is Locked!
+	</txt>		
+	<txt name="mcSneakButton.tfSneak">
+		Sneak
+	</txt>
+	<txt name="PopupDoor.tfDoorLeave">
+		Leave
+	</txt>
+	
+	<!-- popup life -->
+	<txt name="popupPotionLife.tfYouHaveLife">
+		You Have A
+Life Potion!
+	</txt>
+	<txt name="popupPotionLife.tfButDrink">
+		Drink
+	</txt>
+	<txt name="popupPotionLife.tfButCancel">
+		Cancel
+	</txt>
+	<txt name="popupPotionLife.tfDrinkingLife">
+		Drinking
+Life Potion!
+	</txt>
+	
+	<!-- popup luck -->
+	<txt name="popupPotionLuck.tfLuck">
+		You Have A
+Luck Potion!
+	</txt>
+	<txt name="popupPotionLuck.tfButDrink">
+		Drink
+	</txt>
+	<txt name="popupPotionLuck.tfButCancel">
+		Cancel
+	</txt>
+	<txt name="popupPotionLuck.tfDrinkingLuck">
+		Drinking
+Luck Potion!
+	</txt>
+
+	<!-- popup speed -->
+	<txt name="PopupPotionSpeed.tfSpeedPotion">
+		You Have A
+Speed Potion!
+	</txt>
+	<txt name="PopupPotionSpeed.tfButDrink">
+		Drink
+	</txt>
+	<txt name="PopupPotionSpeed.tfButCancel">
+		Cancel
+	</txt>
+
+	<!-- popup strength -->
+
+	<!-- when victorious -->	
+	<txt name="PopupLevelCompleted.tfVictory">
+		Victory!
+	</txt>	
+	<txt name="PopupLevelCompleted.tfLevelCompleted">
+		Level
+		Completed!
+	</txt>		
+	<txt name="mcPortrait.tfHerotitle1">
+		The Barbarian
+	</txt>
+	<txt name="mcPortrait.tfHerotitle2">
+		The Wizard
+	</txt>
+	<txt name="mcPortrait.tfHerotitle3">
+		The Druid
+	</txt>
+	<txt name="mcPortrait.tfHerotitle4">
+		The Knight
+	</txt>
+	<txt name="popupUnconscious.tfYouAreUnconscious">
+		You Are Unconscious!
+	</txt>
+	<txt name="popupUnconscious.tfYouAreHealing">
+		Heal!
+	</txt>
+	
+	<!-- when quest victorious -->	
+	<txt name="PopupGameOver.tfVictory">
+		Victory!
+	</txt>	<txt name="PopupGameOver.tfQuestCompleted">
+		Quest
+Completed! 	</txt>
+	<txt name="PopupGameOver.tfWinner">
+		Winner:
+	</txt>		
+</language>
