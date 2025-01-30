@@ -50,7 +50,29 @@ let games = [
     new Game("Super D", "gry/superd/superd.swf", "gry/superd/superd.jpg")
 ];
 localStorage.setItem("games",games)
+let load_site = window.setTimeout(function(){
 
+        let games_list = document.getElementById("games_list")
+            games_list.innerHTML=""
+        games.forEach(function (item,index){
+            
+            games_list = document.getElementById("games_list")
+            let game = document.createElement("p")
+            let icon = document.createElement("img")
+            icon.src=item.icon
+            icon.alt=item.name
+            game.style.float="left"
+            game.classList.add("game_container")
+            icon.classList.add("game")
+            let description = document.createElement("span");
+            game.appendChild(icon)
+            if(index%5==0) {
+                game.style.clear="both"
+            }
+            game.onclick=()=>item.run_game(item)
+            games_list.appendChild(game)
+            
+        },1)})
 let generated = false; 
 let search_bar = document.getElementById("search")
 let interval2 = window.setInterval(function(){
@@ -107,5 +129,5 @@ let interval2 = window.setInterval(function(){
         ) 
             
         }
-},200)
+},500)
 

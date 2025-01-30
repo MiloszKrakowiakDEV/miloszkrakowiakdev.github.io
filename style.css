@@ -34,7 +34,7 @@ a{
     border: white dashed 1px;
     padding: 5px;
     border-radius: 5px;
-    background-color: rgb(255, 0, 255);
+    background-image: linear-gradient(rgb(255, 0, 255),rgb(197, 38, 163));
 }
 #search_bar{
     margin-top: 10px;
@@ -44,7 +44,7 @@ a{
     border: white dashed 1px;
     padding: 5px;
     border-radius: 5px;
-    background-color: rgb(255, 0, 255);
+    background-image: linear-gradient(rgb(255, 0, 255),rgb(197, 38, 163));
 }
 #search_bar input{
     width: 100%;
