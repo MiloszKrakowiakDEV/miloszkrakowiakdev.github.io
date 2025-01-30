@@ -8,7 +8,7 @@ icon.rel="shortcut icon"
 icon.href=localStorage.getItem("icon")
 window.RufflePlayer = window.RufflePlayer || {};
 window.RufflePlayer.config = {
-"splashScreen": false,
+"splashScreen": true,
 "backgroundColor":"#190ae9",
 "letterbox":"on",
 "contextMenu":"off",
