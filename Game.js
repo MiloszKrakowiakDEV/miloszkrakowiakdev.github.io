@@ -5,6 +5,8 @@ class Game{
         this.icon = icon;
     }
     run_game(item){
+        localStorage.setItem("name",item.name)
+        localStorage.setItem("icon",item.icon)
         localStorage.setItem("current_game",item.path)
         location.replace("play.html")
     }
