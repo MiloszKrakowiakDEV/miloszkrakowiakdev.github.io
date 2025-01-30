@@ -73,10 +73,7 @@ let interval2 = window.setInterval(function(){
             if(index%5==0) {
                 game.style.clear="both"
             }
-            game.onclick=function(){
-                localStorage.setItem("current_game",item.path)
-                location.replace("play.html")
-            }
+            game.onclick=()=>item.run_game(item)
             games_list.appendChild(game)
             
         }
@@ -102,7 +99,7 @@ let interval2 = window.setInterval(function(){
                 if(i%5==0) {
                     game.style.clear="both"
                 }
-                game.onclick=game.run_game()
+                game.onclick=()=>item.run_game(item)
                 games_list.appendChild(game)
                 i++}  
                 
