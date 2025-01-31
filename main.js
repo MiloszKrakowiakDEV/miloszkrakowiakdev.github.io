@@ -130,5 +130,8 @@ let interval2 = window.setInterval(function(){
         ) 
             
         }
+    if(document.getElementById("games_list").innerHTML==""){
+        document.getElementById("games_list").innerHTML="<p id=no_games>Nie znaleziono gier</p>"
+    }
 },500)
 

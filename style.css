@@ -5,6 +5,7 @@
 }
 body{
     background-image: linear-gradient(#6a0dff,#190ae9);
+    height: 1000px;
 }
 .game_container{
     width: 17%;
@@ -55,4 +56,11 @@ a{
     margin-left: 10%;
     margin-right: 10%;
     background-color: transparent;
+}
+#games_list{
+    color: white;
+    font-size: 20pt;
+}
+#no_games{
+    margin-left: 40%;
 }
