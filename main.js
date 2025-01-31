@@ -56,7 +56,9 @@ let load_site = window.setTimeout(function(){
         let games_list = document.getElementById("games_list")
             games_list.innerHTML=""
         games.forEach(function (item,index){
-            
+            let title = document.createElement("p")
+            title.classList.add("game_title")
+            title.textContent=item.name
             games_list = document.getElementById("games_list")
             let game = document.createElement("p")
             let icon = document.createElement("img")
@@ -66,7 +68,9 @@ let load_site = window.setTimeout(function(){
             game.classList.add("game_container")
             icon.classList.add("game")
             let description = document.createElement("span");
+            game.appendChild(title)
             game.appendChild(icon)
+            
             if(index%5==0) {
                 game.style.clear="both"
             }
@@ -85,13 +89,18 @@ let interval2 = window.setInterval(function(){
             games_list = document.getElementById("games_list")
             let game = document.createElement("p")
             let icon = document.createElement("img")
+            let title = document.createElement("p")
+            title.classList.add("game_title")
+            title.textContent=item.name
             icon.src=item.icon
             icon.alt=item.name
             game.style.float="left"
             game.classList.add("game_container")
             icon.classList.add("game")
             let description = document.createElement("span");
+            game.appendChild(title)
             game.appendChild(icon)
+
             if(index%5==0) {
                 game.style.clear="both"
             }
@@ -116,11 +125,18 @@ let interval2 = window.setInterval(function(){
                 game.classList.add("game_container")
                 icon.classList.add("game")
                 let description = document.createElement("span");
-                game.appendChild(icon)
-
+                
+                
+                let title = document.createElement("p")
+                title.classList.add("game_title")
+                title.textContent=item.name
                 if(i%5==0) {
                     game.style.clear="both"
                 }
+                
+                
+                game.appendChild(title)
+                game.appendChild(icon)
                 game.onclick=()=>item.run_game(item)
                 games_list.appendChild(game)
                 i++}  

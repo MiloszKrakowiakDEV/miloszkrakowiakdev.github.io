@@ -12,7 +12,8 @@ body{
     margin: 1%;
     border: dashed white 1px;
     border-radius: 15px;
-    
+
+      
 }
 .game{
     clear:both;
@@ -63,4 +64,21 @@ a{
 }
 #no_games{
     margin-left: 40%;
+}
+.game_title{
+    float: left;
+    background-image: linear-gradient(aliceblue,#c0c0c0);
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+    color: black;
+    height: 70px;
+    padding-top: 5px;
+}
+.game_container img{
+    border-radius: 0;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    float: left
 }
