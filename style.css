@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(#6a0dff,#190ae9);
+    height: 1000px;
+}
+.game_container{
+    width: 17%;
+    margin: 1%;
+    border: dashed white 1px;
+    border-radius: 15px;
+    
+}
+.game{
+    clear:both;
+    width: 100%;
+    height:250px;
+    position: relative;
+    border-radius: 15px;
+
+}
+#footer, #header{
+    clear:both;
+    color: white;
+    margin-left: 1%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    width:10%;
+    margin-left: 46%;
+    border: white dashed 1px;
+    padding: 5px;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(255, 0, 255),rgb(197, 38, 163));
+}
+#search_bar{
+    margin-top: 10px;
+    color: white;
+    width:20%;
+    margin-left: 40%;
+    border: white dashed 1px;
+    padding: 5px;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(255, 0, 255),rgb(197, 38, 163));
+}
+#search_bar input{
+    width: 100%;
+}
+#game_window{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: transparent;
+}
+#games_list{
+    color: white;
+    font-size: 20pt;
+}
+#no_games{
+    margin-left: 40%;
+}

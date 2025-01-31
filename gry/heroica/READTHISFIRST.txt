@@ -1,0 +1,10 @@
+To play the game in a browser, you will have to change your Flash Player settings to include the folder the game is in to your trusted folder locations.
+To do this, 
+1) Open the Flash Player Global Settings. To do this,
+   On Windows: Go to Control Panel -> Flash Player
+    Or, if you are using FireFox, right-click on your Flash movie and choose Global Settings.
+   On Mac: rightclick on your Flash movie and choose Global Settings.
+2) open the Advanced tab
+3) Under "Developer Tools", Click the "Trusted Location Tools" button
+4) Click "Add"
+5) Paste the path to the game's folder or click "Add Folder" and browse to select the game's folder.
